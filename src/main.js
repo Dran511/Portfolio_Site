@@ -19,8 +19,6 @@ document.querySelector('#app').innerHTML = `
       <a href="#home" class="nav-link active">Home</a>
       <a href="#about" class="nav-link">About</a>
       <a href="#projects" class="nav-link">Projects</a>
-      <a href="#certificates" class="nav-link">Certificates</a>
-      <a href="#resume" class="nav-link">Resume</a>
       <a href="#contact" class="nav-link">Contact</a>
       <a href="#contact" class="nav-contact">Contact</a>
     </nav>
