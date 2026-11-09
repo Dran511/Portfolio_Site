@@ -133,6 +133,8 @@ document.querySelector('#app').innerHTML = `
             <h4>Backend</h4>
             <div class="skill-list">
               <span>Node.js</span>
+              <span>Express</span>
+              <span>Socket.IO</span>
             </div>
           </div>
 
@@ -140,6 +142,7 @@ document.querySelector('#app').innerHTML = `
             <h4>Database</h4>
             <div class="skill-list">
               <span>MySQL</span>
+              <span>PostgreSQL</span>
             </div>
           </div>
 
@@ -276,11 +279,14 @@ document.querySelector('#app').innerHTML = `
             <div>
               <h4>Backend</h4>
               <p>Node.js</p>
+              <p>Express</p>
+              <p>Socket.IO</p>
             </div>
 
             <div>
               <h4>Database</h4>
               <p>MySQL</p>
+              <p>PostgreSQL</p>
             </div>
 
             <div>
