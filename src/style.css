@@ -388,7 +388,8 @@ img {
 
 .about-photo {
   width: 100%;
-  height: 285px;
+  /* Match the photo's own 3:4 shape so the whole picture shows, head included */
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   background: #f0f0f0;
 }
@@ -397,7 +398,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center top;
   filter: saturate(0.82) contrast(0.98) brightness(1.02);
 }
 
@@ -1366,7 +1367,7 @@ img {
   }
 
   .about-photo {
-    height: 260px;
+    max-width: 420px;
   }
 
   .about-info {
