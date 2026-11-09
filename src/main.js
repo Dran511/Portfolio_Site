@@ -6,9 +6,9 @@ import aboutImage from './assets/about.jpg'
 import { credentials } from './credentials.js'
 import { projects } from './projects.js'
 
-// When your CV is ready: put it in portfolio/public/ named resume.pdf,
-// then change this to true to show the "Download CV" button.
-const HAS_RESUME = false
+// The "Download CV" button links to portfolio/public/resume.pdf.
+// Add your CV there with that exact name; set this to false to hide the button.
+const HAS_RESUME = true
 
 document.querySelector('#app').innerHTML = `
 <header class="site-header">
