@@ -96,7 +96,7 @@ document.querySelector('#app').innerHTML = `
             </div>
             <div>
               <span>Email</span>
-              <strong class="email-value">dranrebdmagaraog@gmail.com</strong>
+              <strong class="email-value">dranrebdmagdaraog@gmail.com</strong>
             </div>
             <div>
               <span>Location</span>
@@ -313,8 +313,8 @@ document.querySelector('#app').innerHTML = `
           <div class="contact-info">
             <div>
               <span>Email</span>
-              <a href="mailto:dranrebdmagaraog@gmail.com">
-                dranrebdmagaraog@gmail.com
+              <a href="mailto:dranrebdmagdaraog@gmail.com">
+                dranrebdmagdaraog@gmail.com
               </a>
             </div>
 
@@ -393,8 +393,6 @@ document.querySelector('#app').innerHTML = `
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#resume">Resume</a>
       <a href="#contact">Contact</a>
     </nav>
 
