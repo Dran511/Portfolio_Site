@@ -19,6 +19,11 @@
 //   caseStudyUrl Link to a case study      ('' to hide the button)
 // ─────────────────────────────────────────────────────────────
 
+import pilaLanding from './assets/pila-landing.jpg'
+import pilaConsole from './assets/pila-console.jpg'
+import pilaDisplay from './assets/pila-display.jpg'
+import pilaDashboard from './assets/pila-dashboard.jpg'
+import pilaJoinMobile from './assets/pila-join-mobile.jpg'
 import iponDashboard from './assets/ipon-dashboard.jpg'
 import iponDashboardDark from './assets/ipon-dashboard-dark.jpg'
 import iponSetup from './assets/ipon-setup.jpg'
@@ -26,11 +31,54 @@ import iponPlan from './assets/ipon-plan.jpg'
 import iponCaseStudy from './assets/ipon-case-study.jpg'
 import iponMobile from './assets/ipon-mobile.jpg'
 
+// Live site and source code for Pila.
+const PILA_LIVE_URL = 'https://pila-5gjs.onrender.com'
+const PILA_CODE_URL = 'https://github.com/Dran511/Pila'
+
 // Live site and source code for Ipon.
 const IPON_LIVE_URL = 'https://ipon-chi.vercel.app'
 const IPON_CODE_URL = 'https://github.com/Dran511/Ipon'
 
 export const projects = [
+  {
+    category: 'software',
+    label: 'FULL-STACK WEB APP · REAL-TIME',
+    title: 'Pila — Queue System',
+    subtitle: 'Get a queue number from your phone and wait anywhere, not standing in line',
+    description:
+      'A real-time queue system for health centers and government offices. People scan a QR code to get a number, ' +
+      'staff call the next person with one button, and a TV display board announces it instantly.',
+    tags: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Socket.IO', 'Testing'],
+    images: [
+      { src: pilaLanding, alt: 'Pila landing page: skip the line, not your turn' },
+      { src: pilaConsole, alt: 'Staff counter console with the current person and the waiting list' },
+      { src: pilaDisplay, alt: 'Waiting-room TV display board showing the number at each window' },
+      { src: pilaDashboard, alt: 'Admin dashboard with average wait, no-show rate and arrivals by hour' },
+      { src: pilaJoinMobile, alt: 'Join page on a phone with services, people waiting and estimated waits' },
+    ],
+    overview:
+      'In many Philippine public offices, the queue is the waiting room: people arrive before opening and stand in ' +
+      'one line for hours. Pila keeps the order of the line but frees the people in it. Their phone shows their place ' +
+      'and an estimated wait, and alerts them when it is almost their turn. Built as a full-stack app with a real ' +
+      'database, sign-in with roles, live updates over WebSockets, automated tests and continuous integration.',
+    features: [
+      'Join by QR code with no app or account; live position, estimated wait and turn alerts',
+      'Priority lane for senior citizens, PWDs and pregnant women; English and Filipino',
+      'Staff console: one-key "done, call next", recall, no-show and walk-in tickets',
+      'TV display board with a chime and spoken announcements',
+      'Admin dashboard: wait times, no-show rate, busiest hour; manage services, counters and staff',
+    ],
+    role: [
+      'Back-end: Node.js + Express API, PostgreSQL schema and migrations, JWT cookie auth with admin/staff roles',
+      'Concurrency: row locking so two counters can never call the same person, atomic daily numbering',
+      'Real-time: Socket.IO rooms pushing queue snapshots to phones, staff screens and the TV',
+      'Front-end: React + TypeScript, responsive and accessible, hand-built SVG charts',
+      'Quality: 30 automated tests, GitHub Actions CI, deployed on Render with Neon Postgres',
+    ],
+    liveUrl: PILA_LIVE_URL,
+    codeUrl: PILA_CODE_URL,
+    caseStudyUrl: '',
+  },
   {
     category: 'software',
     label: 'WEB APP · PRODUCT DESIGN',
