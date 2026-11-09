@@ -123,6 +123,9 @@ document.querySelector('#app').innerHTML = `
               <span>HTML</span>
               <span>CSS</span>
               <span>JavaScript</span>
+              <span>TypeScript</span>
+              <span>React</span>
+              <span>SVG</span>
             </div>
           </div>
 
@@ -146,6 +149,9 @@ document.querySelector('#app').innerHTML = `
               <span>Figma</span>
               <span>Canva</span>
               <span>Git</span>
+              <span>GitHub</span>
+              <span>Vite</span>
+              <span>Vercel</span>
               <span>Android Studio</span>
               <span>Postman</span>
               <span>VS Code</span>
@@ -262,6 +268,9 @@ document.querySelector('#app').innerHTML = `
               <p>HTML</p>
               <p>CSS</p>
               <p>JavaScript</p>
+              <p>TypeScript</p>
+              <p>React</p>
+              <p>SVG</p>
             </div>
 
             <div>
@@ -277,7 +286,9 @@ document.querySelector('#app').innerHTML = `
             <div>
               <h4>Tools</h4>
               <p>Figma · Canva</p>
-              <p>Git · Android Studio</p>
+              <p>Git · GitHub</p>
+              <p>Vite · Vercel</p>
+              <p>Android Studio</p>
               <p>Postman · VS Code</p>
               <p>Photoshop</p>
             </div>
