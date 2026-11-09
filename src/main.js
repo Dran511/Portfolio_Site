@@ -244,7 +244,7 @@ document.querySelector('#app').innerHTML = `
         </div>
 
         ${HAS_RESUME ? `
-        <a href="/resume.pdf" class="button button-dark" download>
+        <a href="/resume.pdf" class="button button-dark" download="Dran-Magdaraog-Resume.pdf">
           Download CV <span>↓</span>
         </a>` : ''}
       </div>
